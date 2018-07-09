@@ -1,18 +1,13 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-chanheader">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
       <a class="navbar-brand page-scroll" href="#page-top"><img src="includes/images/worldpizText.png" alt="Link to home page."></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#page-top">Home</a></li>
         <li> <a class="page-scroll" href="#about">About</a> </li>
@@ -32,16 +27,20 @@
           <li><%= link_to 'Blog Comments', blog_comments_path %></li>
         </ul>
       </li>
-	  <cfelse>
-	  	<li><a href="/admin/index">Login</a></li>
+    <cfelse>
+      <li><a href="/admin/index">Login</a></li>
       </cfif>
       </ul>
    
       <ul class="nav navbar-nav navbar-right">
        <cfif false>
-            <li><li> <a class="page-scroll" href="#contact">Sign Out</a> </li></li>
+            <li> <a class="page-scroll" href="#contact">Sign Out</a> </li>
         </cfif>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+
+  

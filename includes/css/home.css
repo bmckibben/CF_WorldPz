@@ -1,12 +1,8 @@
-.carousel,
-.item,
-.active {
+.carousel, .item, .active {
     height: 100%;
 }
 
-.carousel-inner {
-    height: 100%;
-}
+
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -20,6 +16,7 @@
     -o-background-size: cover;
 }
 
+/* future carousel */
 .carousel-control {
     font-size: 36px;
 }
@@ -27,6 +24,11 @@
 .carousel {
   height: 400px;
 }
+
+.carousel-inner {
+    height: 100%;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;

@@ -14,28 +14,30 @@
 	<base href="#event.getHTMLBaseURL()#" />
 	<!---css --->
 	<link href="includes/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/prettyPhoto.css" rel="stylesheet">
 	<link href="includes/css/literallight.css" rel="stylesheet">
 	<link href="includes/css/home.css" rel="stylesheet">
 	<!---js --->
     <script src="includes/js/jquery.js"></script>
 	<script src="includes/js/bootstrap.min.js"></script>
+	<script src="includes/js/home.js"></script>
+	<script src="includes/js/jquery.isotope.js"></script>
+	<script src="includes/js/jquery.parallax.js"></script>
+	<script src="includes/js/jquery.prettyPhoto.js"></script>
+	<script src="includes/js/SmoothScroll.js"></script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div id="preloader">
+	  <div id="status"><img alt="" src="includes/images/preloader.gif" width="64" height="64" /> </div>
+	</div>
 
+	<cfinclude template="nav.cfm"/>
 
 	<!---Container And Views --->
 	#renderView()#
 
-
-
-	<script>
-	$(function() {
-		// activate all drop downs
-		$('.dropdown-toggle').dropdown();
-		// Tooltips
-		$("[rel=tooltip]").tooltip();
-	})
-	</script>
+	<cfinclude template="footer.cfm"/>
+	
 </body>
 </html>
 </cfoutput>

@@ -4,8 +4,8 @@
 </div>  
 <div class="col-md-4 col-xs-12" align="center">
     <p id="copyrights">
-        &copy; WorldPz LLC, <cfoutput>#year(now())#</cfoutput>. All rights reserved.<br/>
-            v.2018.188
+        &copy; WorldPz LLC, 2018. All rights reserved.<br/>
+            v.2018.190
     </p>    
     <a href="#mdlPrivacy"  data-toggle="modal" style="font-size:13px;">Privacy Statement</a>
 </div>
@@ -21,7 +21,7 @@
                 <h4 class="modal-title">License</h4>
             </div>
             <div class="modal-body">
-<p>Copyright &copy; <cfoutput>#year(now())#</cfoutput> WorldPz LLC. All rights reserved.</p>
+<p>Copyright &copy; 2018 WorldPz LLC. All rights reserved.</p>
 
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 
@@ -44,12 +44,12 @@
                 <h4 class="modal-title">Privacy Policy</h4>
             </div>
             <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
+                <p>Wait, what? This is the internet. Your data is being bounced around between thousands of locations. Privacy is an illusion. </p>
+                <p> That being said, this site is capturing your IP and date and time of access. That information is used to generate analytical reports on traffic to this site. The reports and data are solely used by the owner of this site and are not shared with any other entity.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-</div>
+</div>  

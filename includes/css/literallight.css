@@ -1,4 +1,4 @@
- /* Layout */
+/* This file contains styles for the main template */
 .centered { text-align: center !important; }
 .inline{ display: inline !important; }
 .margin10{ margin: 10px; }
@@ -7,57 +7,7 @@
 .padding0{ padding: 0px; }
 body{ padding-top: 50px; }
 
-/* Header */
-#intro {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  background: url(../images/43.jpg) no-repeat center center fixed;
-  background-color: #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-/* line 227, /var/www/worldpz/app/assets/stylesheets/home.scss */
-#intro .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-@media (min-width: 768px) {
-    /* line 246, /var/www/worldpz/app/assets/stylesheets/home.scss */
-    #intro {
-        height: 100%;
-        padding: 0;
-    }
-    /* line 118, /var/www/worldpz/app/assets/stylesheets/home.scss */
-    .banner-centered {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }  
-}
-
-@media (max-width: 640px) {
-  /* line 185, /var/www/worldpz/app/assets/stylesheets/style.scss */
-  #intro .intro-body H1 {
-    font-size: 36px;
-  }
-
-  /* line 188, /var/www/worldpz/app/assets/stylesheets/style.scss */
-  ol.type li {
-    margin-top: 30px;
-  }
-}
-
-/* Footer */
+/* Footer ######################################################### */
 #footer {
 	background: #333;
 	color: #777;
@@ -75,28 +25,23 @@ body{ padding-top: 50px; }
 	margin-top: 10px;
 }
 
-/* I prefer these to bootstrap defaults */
-
-/* line 8, /var/www/worldpz/app/assets/stylesheets/bootstrap_overrides.scss */
+/* Navigation ######################################################### */
 .navbar-header {
   max-width: 20%;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-/* line 18, /var/www/worldpz/app/assets/stylesheets/bootstrap_overrides.scss */
 .navbar-collapse {
   max-width: 80%;
 }
 
-/* line 22, /var/www/worldpz/app/assets/stylesheets/bootstrap_overrides.scss */
 .navbar-brand {
   padding: 0;
   margin-right: 0;
   height: 40px;
 }
 
-/* line 29, /var/www/worldpz/app/assets/stylesheets/bootstrap_overrides.scss */
 .navbar-brand img {
   width: 100%;
   height: auto;
@@ -104,8 +49,6 @@ body{ padding-top: 50px; }
   max-height: 40px;
 }
 
-/* Navigation */
-/* line 156, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom {
   padding: 0;
   border-bottom: 0;
@@ -116,22 +59,18 @@ body{ padding-top: 50px; }
   width: 100%;  
 }
 
-/* line 163, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .navbar-brand {
   font-weight: 600;
 }
 
-/* line 166, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .navbar-brand i.fa {
   color: #26B4E7;
 }
 
-/* line 169, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 172, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .navbar-toggle {
   color: #eee;
   font-size: 18px;
@@ -140,23 +79,19 @@ body{ padding-top: 50px; }
   float: right;
 }
 
-/* line 178, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
   background-color: #26B4E7;
   color: #ffffff;
 }
 
-/* line 182, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 185, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom a {
   color: #fff;
 }
 
-/* line 188, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .nav li a {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
@@ -169,6 +104,7 @@ body{ padding-top: 50px; }
   text-shadow: none !important;
   font-family: verdana, serif;  
 }
+
 .navbar-custom .nav li a:link {
   color: #66CCFF;
   float: none;
@@ -176,7 +112,6 @@ body{ padding-top: 50px; }
   text-decoration: none;
 }
 
-/* line 193, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .nav li a:hover {
   outline: 0;
   color: #26B4E7;
@@ -190,7 +125,6 @@ body{ padding-top: 50px; }
   text-decoration: none;
 }
 
-/* line 198, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
   outline: 0;
   background-color: transparent;
@@ -201,7 +135,6 @@ body{ padding-top: 50px; }
   background-color: transparent;  
 }
 
-/* line 203, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .nav li.active {
   outline: 0;
   color: #66CCFF;
@@ -210,23 +143,19 @@ body{ padding-top: 50px; }
   text-decoration: none;  
 }
 
-/* line 206, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .nav li.active a {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 209, /var/www/worldpz/app/assets/stylesheets/layout.scss */
 .navbar-custom .nav li.active a:hover {
   color: #fff;
 }
 
 @media (min-width: 768px) {
-  /* line 144, /var/www/worldpz/app/assets/stylesheets/bootstrap_overrides.scss */
   .navbar-header {
     max-width: 100%;
   }
 
-  /* line 147, /var/www/worldpz/app/assets/stylesheets/bootstrap_overrides.scss */
   .navbar-brand img {
     max-width: 166px;
   } 
@@ -234,39 +163,33 @@ body{ padding-top: 50px; }
 
 @media (max-width: 400px) {
   /* phone size */
-  /* Navbar positioning */
-  /* line 255, /var/www/worldpz/app/assets/stylesheets/layout.scss */
   .navbar-wrapper {
     margin-top: 20px;
   }
 
-  /* line 258, /var/www/worldpz/app/assets/stylesheets/layout.scss */
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 262, /var/www/worldpz/app/assets/stylesheets/layout.scss */
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  /* line 268, /var/www/worldpz/app/assets/stylesheets/layout.scss */
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
-  /* line 272, /var/www/worldpz/app/assets/stylesheets/layout.scss */
   .navbar-lower {
     margin-top: 100px;
   }
 
-  /* line 276, /var/www/worldpz/app/assets/stylesheets/layout.scss */
   .navbar-brand img {
     height: auto;
     width: 100%;
     max-width: 200px;
   }
 }
+

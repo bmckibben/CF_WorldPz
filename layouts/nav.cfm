@@ -1,9 +1,9 @@
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="display: none;">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"><i class="fa fa-bars"></i></button>
-      <a class="navbar-brand page-scroll" href="#page-top"><img src="includes/images/worldpizText.png" alt="Worldpiztext" /></a>
+      <a class="navbar-brand page-scroll" href="#page-top"><img src="includes/images/worldpizText.png" alt="Worldpiztext"></a>
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,7 +19,7 @@
         <li> <a class="page-scroll" href="#team">Team</a> </li>
         
         <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-            <li><a href="/admin/index">Login</a></li>
+            <li><a href="http://www.world-pz.pizza/admin/index">Login</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 

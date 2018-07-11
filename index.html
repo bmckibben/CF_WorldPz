@@ -4,20 +4,36 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="http://www.world-pz.pizza/images/favicon.ico"> 
-<title>** World-Pz **</title>
+<title>** World-Pizza **</title>
 <meta name="keywords" content="World Peace World-Pz Socially Responsible Pizza">
 <meta name="description" content="Promoting World Peace through Socially Responsible Pizza">
 <meta name="author" content="Ben McKibben">
-
-  <link rel="stylesheet" media="all" href="includes/css/application.css">
+<!-- Stylesheets -->
+  <link rel="stylesheet" media="all" href="includes/css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="includes/css/overrides.css">
+  <link rel="stylesheet" media="all" href="includes/css/home.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Javascript -->  
   <script src="includes/js/application.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="includes/js/blogs.js"></script>
+  <script src="includes/js/home.js"></script>
+  <script src="includes/js/home_app.js"></script>
+  <script src="includes/js/jqBootstrapValidation.js"></script>
+  <script src="includes/js/jquery.isotope.js"></script>
+  <script src="includes/js/jquery.parallax.js"></script>
+  <script src="includes/js/jquery.prettyPhoto.js"></script>
+  <script src="includes/js/recipes.js"></script>
   <meta name="csrf-param" content="authenticity_token">
 <meta name="csrf-token" content="Qto+exVfd49pn8B42aBeJb17cu9FCQHSzWNHIoLqDlNOy2E6oZXygbZeDkqtZW3d6o7iLPWpKdxzsS86T1OyuQ==">
 <link href="includes/css/css.css" rel="stylesheet" type="text/css">
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+  <div id="preloader">
+    <div id="status"><img alt="" src="includes/images/preloader.gif" width="64" height="64" /> </div>
+  </div>
+  
 <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="display: none;">
   <div class="container">
@@ -187,7 +203,7 @@ develop a world perspective.</p>
                 <h4>World Piz T</h4>
                 <p>Shirt</p>
               </div>
-              <img class="img-responsive center-block" alt="T Shirt" src="includes/images/02.png">
+              <img class="img-responsive center-block" alt="T Shirt" src="includes/images/merch/02.png">
               </a> 
             </div>
           </div>
@@ -200,7 +216,7 @@ develop a world perspective.</p>
                 <h4>Bumper Sticker</h4>
                 <p>Sticker</p>
               </div>
-              <img class="img-responsive center-block" alt="Bumper Sticker" src="includes/images/01.png">
+              <img class="img-responsive center-block" alt="Bumper Sticker" src="includes/images/merch/01.png">
               </a> 
             </div>
           </div>
@@ -213,7 +229,7 @@ develop a world perspective.</p>
                 <h4>Peace Sign</h4>
                 <p>Pin</p>
               </div>
-              <img class="img-responsive center-block" alt="Pin" src="includes/images/04.png">
+              <img class="img-responsive center-block" alt="Pin" src="includes/images/merch/04.png">
               </a> 
             </div>
           </div>
@@ -226,7 +242,7 @@ develop a world perspective.</p>
                 <h4>Bumper Sticker</h4>
                 <p>Sticker</p>
               </div>
-              <img class="img-responsive center-block" alt="Bumper Sticker" src="includes/images/05.png">
+              <img class="img-responsive center-block" alt="Bumper Sticker" src="includes/images/merch/05.png">
               </a> 
             </div>
           </div>
@@ -440,28 +456,28 @@ Italian Sausage.</p>
     </div>
     <div id="row">
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/01.jpg">
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/01.jpg">
           <div class="caption">
             <h3>Mad Genius Pizzaiolo</h3>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/02.png">
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/02.png">
           <div class="caption">
             <h3>Code Monkey</h3>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/03.jpg">
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/03.jpg">
           <div class="caption">
             <h3>ウルトラマン</h3>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/04.png">
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/04.png">
           <div class="caption">
             <h3>Barrak</h3>
           </div>
@@ -586,7 +602,7 @@ pizza restaurant quality.
 <div class="col-md-4 col-xs-12" align="center">
     <p id="copyrights">
         © WorldPz LLC, 2018. All rights reserved.<br>
-            v.2017.143
+            v.2018.192
     </p>    
     <a href="#mdlPrivacy" data-toggle="modal" style="font-size:13px;">Privacy Statement</a>
 </div>
@@ -637,21 +653,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
                 <h4 class="modal-title">Privacy Policy</h4>
             </div>
             <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
- ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-qui officia deserunt mollit anim id est laborum.</p>
-                <p>Vivamus fermentum semper porta. Nunc diam velit, 
-adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis 
-ullamcorper ultricies. Curabitur ornare, ligula semper consectetur 
-sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam 
-dictum, odio nec pretium volutpat, arcu ante placerat erat, non 
-tristique elit urna et turpis. Quisque mi metus, ornare sit amet 
-fermentum et, tincidunt et orci. Fusce eget orci a orci congue 
-vestibulum.</p>
+                <p>Wait, what? Privacy? What you talkin&apos; bout Willis? This the Interweb, privacy is an illusion.</p>
+                <p>This site will capture your IP and page visits to provide the owner with site analytics. This information will not be shared with anyone.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

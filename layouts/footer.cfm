@@ -4,10 +4,10 @@
 </div>  
 <div class="col-md-4 col-xs-12" align="center">
     <p id="copyrights">
-        &copy; WorldPz LLC, 2018. All rights reserved.<br/>
-            v.2018.190
+        © WorldPz LLC, 2018. All rights reserved.<br>
+            v.2018.192
     </p>    
-    <a href="#mdlPrivacy"  data-toggle="modal" style="font-size:13px;">Privacy Statement</a>
+    <a href="#mdlPrivacy" data-toggle="modal" style="font-size:13px;">Privacy Statement</a>
 </div>
 <div class="col-md-4 col-xs-12"> 
     <p class="pull-right" style="padding-right:30px;"><a href="#">Back to top</a></p>
@@ -17,17 +17,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 <h4 class="modal-title">License</h4>
             </div>
             <div class="modal-body">
-<p>Copyright &copy; 2018 WorldPz LLC. All rights reserved.</p>
+<p>Copyright © 2018 WorldPz LLC. All rights reserved.</p>
 
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the 
+"Software"), to deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, 
+distribute, sublicense, and/or sell copies of the Software, and to 
+permit persons to whom the Software is furnished to do so, subject to 
+the following conditions:</p>
 
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -40,12 +52,12 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 <h4 class="modal-title">Privacy Policy</h4>
             </div>
             <div class="modal-body">
-                <p>Wait, what? This is the internet. Your data is being bounced around between thousands of locations. Privacy is an illusion. </p>
-                <p> That being said, this site is capturing your IP and date and time of access. That information is used to generate analytical reports on traffic to this site. The reports and data are solely used by the owner of this site and are not shared with any other entity.</p>
+                <p>Wait, what? Privacy? What you talkin&apos; bout Willis? This the Interweb, privacy is an illusion.</p>
+                <p>This site will capture your IP and page visits to provide the owner with site analytics. This information will not be shared with anyone.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

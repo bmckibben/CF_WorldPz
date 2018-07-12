@@ -5,7 +5,7 @@
 <div class="col-md-4 col-xs-12" align="center">
     <p id="copyrights">
         © WorldPz LLC, 2018. All rights reserved.<br>
-            v.2018.192
+            v.2018.193
     </p>    
     <a href="#mdlPrivacy" data-toggle="modal" style="font-size:13px;">Privacy Statement</a>
 </div>

@@ -1,10 +1,10 @@
 ﻿<!-- Header -->
-<div id="intro">
+<div id="intro" style="background-position: 50% 0px;">
   <div class="intro-body">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img alt="World Piz" class="banner-centered" src="includes/images/worldpiz_header_med.png" /><br/>
+          <img alt="World Piz" class="banner-centered" src="includes/images/worldpiz_header_med.png"><br>
           <a href="#about" class="btn btn-primary btn-lg page-scroll">Tell Me More</a> </div>
       </div>
     </div>
@@ -19,30 +19,42 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-4"><img class="img-responsive" src="includes/images/34.jpg" alt="34" /></div>
+      <div class="col-md-4"><img class="img-responsive" src="includes/images/34.jpg" alt="34"></div>
       <div class="col-md-4">
         <div class="about-text">
           <h4>Mission</h4>
-          <p>It is my mission to empower those who promote world peace by providing them with a pizza they will be proud to eat. This is accomplished using internationally inspired recipes with natural and ethically sourced ingredients.</p>
+          <p>It is my mission to empower those who promote world peace 
+by providing them with a pizza they will be proud to eat. This is 
+accomplished using internationally inspired recipes with natural and 
+ethically sourced ingredients.</p>
           <p>After years of trial and error I have found a method for making the perfect pizza crust. There are two key factors.</p> 
-          <p>Give the dough plenty of time to rise. I use a room temperature sourdough starter so I begin with an active yeast culture. After mixing ingredients, I let it rise for two hours, put it in the fridge overnight, then take it out and let it rise another four hours. All this ensures the gluten in the dough is at its best.</p>
-          <p>A hot oven. I place a pizza stone on the middle rack of a standard gas kitchen oven and set the temperature at 500&#176; then cook the pizza for 20 minutes. With my dough recipe this yields a firm bottom of about 3/16 of an inch and a chrispy ring around the edges.</p>
-            </ol>
-          </p>
+          <p>Give the dough plenty of time to rise. I use a room 
+temperature sourdough starter so I begin with an active yeast culture. 
+After mixing ingredients, I let it rise for two hours, put it in the 
+fridge overnight, then take it out and let it rise another four hours. 
+All this ensures the gluten in the dough is at its best.</p>
+          <p>A hot oven. I place a pizza stone on the middle rack of a 
+standard gas kitchen oven and set the temperature at 500° then cook the 
+pizza for 20 minutes. With my dough recipe this yields a firm bottom of 
+about 3/16 of an inch and a chrispy ring around the edges.</p>
+            
+          <p></p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="about-text">
           <h4>Goal</h4>
-          <p>In the past few decades, several companies have adopted social responsibility as part of their corporate policy. Social responsibility is our <strong>founding</strong> principle.</p>
+          <p>In the past few decades, several companies have adopted 
+social responsibility as part of their corporate policy. Social 
+responsibility is our <strong>founding</strong> principle.</p>
           <p>Profits from the sale of the merchandise below are donated to:
-            <ul>
-              <li><a href="https://www.msf.org" target="_blank" title="Médecins Sans Frontières">Médecins Sans Frontières</a></li>
-              <li><a href="https://www.oxfam.org" target="_blank" title="Oxfam">Oxfam</a></li>
-              <li><a href="https://www.amnesty.org" target="_blank" title="Amnesty International">Amnesty International</a></li>
-              <li><a href="https://www.heifer.org" target="_blank" title="Heifer International">Heifer International</a></li>
+            </p><ul>
+              <li><a href="https://www.msf.org/" target="_blank" title="Médecins Sans Frontières">Médecins Sans Frontières</a></li>
+              <li><a href="https://www.oxfam.org/" target="_blank" title="Oxfam">Oxfam</a></li>
+              <li><a href="https://www.amnesty.org/" target="_blank" title="Amnesty International">Amnesty International</a></li>
+              <li><a href="https://www.heifer.org/" target="_blank" title="Heifer International">Heifer International</a></li>
             </ul>
-          </p> 
+          <p></p> 
 <!--           <p>I would like to create an international chain of resturants, like Hard Rock Cafe, that would promote world peace. It would be a non-profit entity whose profits would be donated to charity. When I win the lottery.
           </p>  -->
         </div>
@@ -62,7 +74,10 @@
         <div class="row testimonials">
           <div class="col-sm-4">
             <blockquote class="testimonial-well"><i class="fa fa-quote-left"></i>
-              <p>If we are to have peace on earth, our loyalties must become ecumenical rather than sectional. Our loyalties must transcend our race, our tribe, our class, and our nation; and this means we must develop a world perspective.</p>
+              <p>If we are to have peace on earth, our loyalties must 
+become ecumenical rather than sectional. Our loyalties must transcend 
+our race, our tribe, our class, and our nation; and this means we must 
+develop a world perspective.</p>
               <div class="clients-name">
                 <p><strong>Martin Luther King, Jr.</strong></p>
               </div>
@@ -90,7 +105,7 @@
   </div>
 </div>
 <!-- merch Section -->
-<div id="merch">
+<div id="works">
   <div class="container"> <!-- Container -->
     <div class="section-title text-center center">
       <h2>Merch</h2>
@@ -112,74 +127,55 @@
       </ul>
       <div class="clearfix"></div>
     </div>
-
     <div class="row">
-      <div class="merch-items">
-        <div class="col-xs-12 col-md-4 lorem">
-          <div class="merch-item">
-            <div class="hover-bg"> 
-              <a href="includes/images/merch/02.png" title="Be there. Do that. Get the t-shirt!" rel="prettyPhoto">
+      <div class="portfolio-items">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="includes/images/merch/02.png" title="Be there. Do that. Get the t-shirt!" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>World Piz T</h4>
                 <p>Shirt</p>
               </div>
-              <img class="img-responsive center-block" alt="T Shirt" src="includes/images/merch/02.png" />
-              </a> 
-            </div>
+              <img src="includes/images/merch/02.png" class="img-responsive" alt="T Shirt"> </a> </div>
           </div>
         </div>
-        <div class="col-xs-12 col-md-4 consectetur">
-          <div class="merch-item">
-            <div class="hover-bg"> 
-              <a href="includes/images/merch/01.png" title="Keep your ride together." rel="prettyPhoto">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="includes/images/merch/01.png" title="Keep your ride together." rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Bumper Sticker</h4>
                 <p>Sticker</p>
               </div>
-              <img class="img-responsive center-block" alt="Bumper Sticker" src="includes/images/merch/01.png" />
-              </a> 
-            </div>
+              <img src="includes/images/merch/01.png" class="img-responsive" alt="Bumper Sticker"> </a> </div>
           </div>
-        </div> 
-        <div class="col-xs-12 col-md-4 dapibus">
-          <div class="merch-item">
-            <div class="hover-bg"> 
-              <a href="includes/images/merch/04.png" title="Stick it to the man." rel="prettyPhoto">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="includes/images/merch/04.png" title="Stick it to the man." rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Peace Sign</h4>
                 <p>Pin</p>
               </div>
-              <img class="img-responsive center-block" alt="Pin" src="includes/images/merch/04.png" />
-              </a> 
-            </div>
+              <img src="includes/images/merch/04.png" class="img-responsive" alt="Pin"> </a> </div>
           </div>
         </div>
-        <div class="col-xs-12 col-md-4 consectetur">
-          <div class="merch-item">
-            <div class="hover-bg"> 
-              <a href="includes/images/merch/05.png" title="Removes dings!" rel="prettyPhoto">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="includes/images/merch/05.png" title="Removes dings!" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Bumper Sticker</h4>
                 <p>Sticker</p>
               </div>
-              <img class="img-responsive center-block" alt="Bumper Sticker" src="includes/images/merch/05.png" />
-              </a> 
-            </div>
+              <img src="includes/images/merch/05.png" class="img-responsive" alt="Bumper Sticker"> </a> </div>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <a href="javascript:void(0);alert('Still working on this');" class="btn btn-primary" style="margin-left:auto;margin-right:auto;">Enter The Shop</a> 
-      </div>
-    </div>    
   </div>
 </div>
 
 <!-- Recipes Section -->
-<div id="recipes" class="text-center" style="background-position: 50% 110px">
+<div id="recipes" class="text-center" >
   <div class="container">
     <div class="section-title center">
       <h2>Recipes</h2>
@@ -187,152 +183,159 @@
     </div>
     <div class="space"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
-          <h3><a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/13">Dough!</a> </h3>
-          <p>You can&apos;t build anything without a good foundation.</p>
+          <h3><a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/13">Dough!</a> </h3>
+          <p>You can't build anything without a good foundation.</p>
         </div>
       </div> 
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
-          <h3><a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/14">Sawse</a> </h3>
+          <h3><a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/14">Sawse</a> </h3>
           <p>As with all good things, good sauce comes to he who waits.</p>
         </div>
       </div> 
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/1">Umami</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/1">Umami</a>
           </h3>
           <p>All meat, all the time. Pepperoni, Italian Sausage, Shrimp, Bacon, Shredded Chicken, Moz Cheese, Italian Herbs, Red Sauce.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/2">Quintessential</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/2">Quintessential</a>
           </h3>
-          <p>Original Italian IMHO. Pepperoni, Italian Sausage, Black Olives, Bell Pepper, Onion, Mushrooms, Mozzarella Cheese, Red Sauce, Oregano.</p>
+          <p>Original Italian IMHO. Pepperoni, Italian Sausage, Black 
+Olives, Bell Pepper, Onion, Mushrooms, Mozzarella Cheese, Red Sauce, 
+Oregano.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/3">Attack of the Prawn</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/3">Attack of the Prawn</a>
           </h3>
           <p>Homage to <em>Pizza Attack, Malaysia</em> some of the best pizza I've ever eaten. Shrimp, Fresh Sliced Tomato, Fresh Basil Leaves, Moz/Parm Cheese.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/17">Zombie</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/17">Zombie</a>
           </h3>
           <p>Anchovy, Bacon, Diced Tomato, Spinach, Ranch Dressing. </p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/20">Jamaica Me Crazy</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/20">Jamaica Me Crazy</a>
           </h3>
           <p>Jerk Chicken and Roasted Bell Peppers with a Rum flavored Sauce</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/7">Jambalaya</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/7">Jambalaya</a>
           </h3>
           <p>C'est si bon! Andouille Sausage, Shrimp, Green Pepper, Green Onions, Celery, Creole Seasoning.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/15">Contusion</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/15">Contusion</a>
           </h3>
           <p>aka: Black and Blue.  Black Olives, Blue Cheese, Shredded Buffalo Chicken.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/6">Oxymoron</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/6">Oxymoron</a>
           </h3>
           <p>Vegan all meat pie featuring Beyond Meat products. No animals were harmed in the making of <span style="font-style:italic;">this</span> production.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/5">The Kasbah</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/5">The Kasbah</a>
           </h3>
           <p>It Rocks! A middle east inspired pizza with Harrisa Sauce, Falafel, Marinated Onions, Spinach Leaves, Feta Cheese</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/18">Miso Happy</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/18">Miso Happy</a>
           </h3>
-          <p>Me so happy for the Halibut. A Miso/Tomato sauce on traditional crust. topped with baked white fish, mushrooms, green onions and mozzarella..</p>
+          <p>Me so happy for the Halibut. A Miso/Tomato sauce on 
+traditional crust. topped with baked white fish, mushrooms, green onions
+ and mozzarella..</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/16">Samarkand</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/16">Samarkand</a>
           </h3>
           <p>A favorite of ancient traders that traveled the Silk Road. Lamb, Eggplant, Turmeric, Feta, Rosemary, Mint.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/8">Jalfezzi</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/8">Jalfezzi</a>
           </h3>
           <p>Indian spiced roast chicken and the wife's secret curry sauce.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/4">Enchalada Mama</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/4">Enchalada Mama</a>
           </h3>
           <p>¡Ay, caramba! Carnitas, Jalapeno, Black Beans, Enchilada Sauce, Cheddar/Jack Cheese.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/9">Abomination</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/9">Abomination</a>
           </h3>
           <p>What most people would call an Hawaiian pizza. But I believe there is no place for pineapple on a pizza. Hence the name.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/10">Rendang</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/10">Rendang</a>
           </h3>
           <p>Spicy Coconut Beef</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/11">Sichuan</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/11">Sichuan</a>
           </h3>
           <p>Another <em>Pizza Attack</em> speciality. Chicken, Wood Ear Mushrooms, Spring Onions, Red Sauce with Anise and Cinnamon, Red Pepper Flakes</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12" >
+      <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="service">
           <h3>
-            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="/home/display_recipe/19">Fakin&#39; It</a>
+            <a data-toggle="modal" data-target="#mdlRecipe" data-remote="true" href="http://www.world-pz.pizza/home/display_recipe/19">Fakin' It</a>
           </h3>
-          <p>Vegetarian version of the Quintessential. Instead of Italian Sausage or Pepperoni, use Morningstar Farms Bacon Strips, cooked and crumbled.  Might also add some Fennel to give it a taste like Italian Sausage.</p>
+          <p>Vegetarian version of the Quintessential. Instead of 
+Italian Sausage or Pepperoni, use Morningstar Farms Bacon Strips, cooked
+ and crumbled.  Might also add some Fennel to give it a taste like 
+Italian Sausage.</p>
         </div>
       </div>
     </div>
@@ -344,9 +347,9 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
         <div class="float-left">
-          <i aria-hidden="false" class="glyphicon glyphicon-print" onClick="printMe('mdlRecipe-body')" style="cursor:pointer;"></i>
+          <i aria-hidden="false" class="glyphicon glyphicon-print" onclick="printMe('mdlRecipe-body')" style="cursor:pointer;"></i>
         </div>
       </div>
       <div class="modal-body" id="mdlRecipe-body">
@@ -363,34 +366,34 @@
 <div id="team" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>Who&apos;s Responsible For This?</h2>
+      <h2>Who's Responsible For This?</h2>
       <hr>
       <h4>These are a few of the people who make this possible.</h4>
     </div>
     <div id="row">
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/01.jpg" />
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/01.jpg">
           <div class="caption">
             <h3>Mad Genius Pizzaiolo</h3>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/02.png" />
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/02.png">
           <div class="caption">
             <h3>Code Monkey</h3>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/03.jpg" />
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/03.jpg">
           <div class="caption">
             <h3>ウルトラマン</h3>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-3 col-sm-6">
-        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/04.png" />
+        <div class="thumbnail"><img class="img-thumbnail team-img" alt="..." src="includes/images/team/04.png">
           <div class="caption">
             <h3>Barrak</h3>
           </div>
@@ -400,7 +403,7 @@
   </div>
 </div>
 
-<div data-ng-app="appHome">
+<div data-ng-app="appHome" class="ng-scope">
 <!-- Blog Section -->
 <div id="blog-display">
   <div class="container">
@@ -416,17 +419,20 @@
       <h2>Another Dough! Mod</h2>
     </div>
     <div class="panel-body">
-    Really good crust on last night&#39;s pizza. Soft, chewy and perfect browning on the bottom.  Recipe is updated accordingly. ALos the new &quot;Jamaica Me Crazy&quot; won praise from the wife. It was pretty good, craft pizza restaurant quality.
+    Really good crust on last night's pizza. Soft, chewy and perfect 
+browning on the bottom.  Recipe is updated accordingly. ALos the new 
+"Jamaica Me Crazy" won praise from the wife. It was pretty good, craft 
+pizza restaurant quality.
   </div>
 </div>
-<small>Submitted 14 days ago</small>
+<small>Submitted 15 days ago</small>
 
 <h3>Add Comment</h3>
 
-<div ng-controller="ctlrComment">
-  <form ng-class="form" ng-submit="postComment(9,body)" name="newBlogComment" id="newBlogComment" novalidate>
+<div ng-controller="ctlrComment" class="ng-scope">
+  <form ng-class="form" ng-submit="postComment(9,body)" name="newBlogComment" id="newBlogComment" novalidate="" class="ng-pristine ng-invalid ng-invalid-required">
     <div class="input-group">
-        <textarea name="body" id="body" class="form-control" rows="3" placeholder="Post a Comment" required ng-model="body"></textarea>
+        <textarea name="body" id="body" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" rows="3" placeholder="Post a Comment" required="" ng-model="body"></textarea>
       <span class="input-group-btn">
         <button type="submit" class="btn btn-default text-area-input-btn">Post</button>
       </span>         
@@ -440,15 +446,15 @@
       </div> 
       <div class="col-xs-12 col-md-2" style="padding-left:3em;">
         <h3>Past Entries</h3>
-            <p><a href="/blogs/display/9">Another Dough! Mod</a><br/>
-   <small>14 days ago</small></p>
-   <p><a href="/blogs/display/7">New Bake TIme</a><br/>
+            <p><a href="http://www.world-pz.pizza/blogs/display/9">Another Dough! Mod</a><br>
+   <small>15 days ago</small></p>
+   <p><a href="http://www.world-pz.pizza/blogs/display/7">New Bake TIme</a><br>
    <small>4 months ago</small></p>
-   <p><a href="/blogs/display/6">The Kasbah</a><br/>
+   <p><a href="http://www.world-pz.pizza/blogs/display/6">The Kasbah</a><br>
    <small>5 months ago</small></p>
-   <p><a href="/blogs/display/5">Zombie Test</a><br/>
+   <p><a href="http://www.world-pz.pizza/blogs/display/5">Zombie Test</a><br>
    <small>6 months ago</small></p>
-   <p><a href="/blogs/display/4">Experimenting with Dough</a><br/>
+   <p><a href="http://www.world-pz.pizza/blogs/display/4">Experimenting with Dough</a><br>
    <small>8 months ago</small></p>
 
       </div>       
@@ -466,25 +472,25 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <h3>Use this form to send me a message.</h3>
-    <div ng-controller="ctlrContact">  
-    <form ng-class="form" ng-submit="sendEmail(email_name,email_address,email_message)">  
-      <form name="sentMessage" id="contactForm" novalidate>
+    <div ng-controller="ctlrContact" class="ng-scope">  
+    <form ng-class="form" ng-submit="sendEmail(email_name,email_address,email_message)" class="ng-pristine ng-invalid ng-invalid-required ng-valid-email">  
+      
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="contactName" name="email_name" class="form-control" placeholder="Name" required="required" ng-model="email_name">
+              <input id="contactName" name="email_name" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" placeholder="Name" required="required" ng-model="email_name" type="text">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" id="contactEmail" name="email_address" class="form-control" placeholder="Email" required="required" ng-model="email_address">
+              <input id="contactEmail" name="email_address" class="form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required" placeholder="Email" required="required" ng-model="email_address" type="email">
               <p class="help-block text-danger"></p>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <textarea name="email_message" id="contactMessage" class="form-control" rows="4" placeholder="Message" required ng-model="email_message"></textarea>
+          <textarea name="email_message" id="contactMessage" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" rows="4" placeholder="Message" required="" ng-model="email_message"></textarea>
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
@@ -495,16 +501,11 @@
       <div class="social">
         <h3>Follow World Pz</h3>
         <ul>
-          <li><a href="https://www.facebook.com/1worldpiz"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/1WorldPiz"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://github.com/bmckibben/worldpz"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.facebook.com/1worldpiz"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/1WorldPiz"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://github.com/bmckibben/worldpz"><i class="fab fa-github"></i></a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
-
-</div> <!-- ng -->
-
-
-

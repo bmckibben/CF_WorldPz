@@ -1,5 +1,4 @@
 /* thanks to: Ultimate CSS Gradient Generator (http://www.colorzilla.com/gradient-editor/) */
-/* line 2, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .btn-primary:hover {
   background: #2d77af;
   /* Old browsers */
@@ -19,7 +18,6 @@
   /* IE6-9 */
 }
 
-/* line 13, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .btn-primary {
   background: #7db9e8;
   /* Old browsers */
@@ -39,7 +37,6 @@
   /* IE6-9 */
 }
 
-/* line 24, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .btn-default {
   color: #000000;
   border: 1;
@@ -59,7 +56,6 @@
   /* IE6-9 */
 }
 
-/* line 38, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .btn-default:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfc5c9+0,e5e5e5+45,e5ebee+50,f6f8f9+100 */
   background: #bfc5c9;
@@ -74,17 +70,14 @@
   /* IE6-9 */
 }
 
-/* line 47, /var/www/worldpz/app/assets/stylesheets/style.scss */
 h1 {
   font-weight: 700;
 }
 
-/* line 50, /var/www/worldpz/app/assets/stylesheets/style.scss */
 h1 strong {
   font-weight: 900;
 }
 
-/* line 53, /var/www/worldpz/app/assets/stylesheets/style.scss */
 h2 {
   text-transform: uppercase;
   line-height: 30px;
@@ -93,32 +86,27 @@ h2 {
   color: #555;
 }
 
-/* line 60, /var/www/worldpz/app/assets/stylesheets/style.scss */
 h3 {
   font-size: 16px;
   font-weight: 700;
   color: #555;
 }
 
-/* line 65, /var/www/worldpz/app/assets/stylesheets/style.scss */
 h4 {
   font-weight: 500;
   color: #555;
 }
 
-/* line 69, /var/www/worldpz/app/assets/stylesheets/style.scss */
 h5 {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 20px;
 }
 
-/* line 75, /var/www/worldpz/app/assets/stylesheets/style.scss */
 p {
   font-size: 14px;
 }
 
-/* line 79, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -128,22 +116,18 @@ p {
   height: 0;
 }
 
-/* line 87, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .clearfix {
   display: inline-block;
 }
 
-/* line 90, /var/www/worldpz/app/assets/stylesheets/style.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 93, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .clearfix {
   display: block;
 }
 
-/* line 97, /var/www/worldpz/app/assets/stylesheets/style.scss */
 #preloader {
   position: fixed;
   top: 0;
@@ -155,7 +139,6 @@ p {
   height: 100%;
 }
 
-/* line 108, /var/www/worldpz/app/assets/stylesheets/style.scss */
 #status {
   position: absolute;
   left: 50%;
@@ -166,14 +149,12 @@ p {
   padding: 0;
 }
 
-/* line 118, /var/www/worldpz/app/assets/stylesheets/style.scss */
 ul, ol {
   padding: 0;
   webkit-padding: 0;
   moz-padding: 0;
 }
 
-/* line 124, /var/www/worldpz/app/assets/stylesheets/style.scss */
 hr {
   height: 4px;
   width: 70px;
@@ -185,13 +166,11 @@ hr {
   border: 0;
 }
 
-/* line 137, /var/www/worldpz/app/assets/stylesheets/style.scss */
 ol.type li {
   display: inline-block;
   margin-left: 20px;
 }
 
-/* line 141, /var/www/worldpz/app/assets/stylesheets/style.scss */
 ol.type li a {
   color: #777;
   padding: 8px 16px;
@@ -199,21 +178,18 @@ ol.type li a {
   border-radius: 2px;
 }
 
-/* line 147, /var/www/worldpz/app/assets/stylesheets/style.scss */
 ol.type li a.active {
   color: #f6f6f6;
   border: 1px solid #cf5022;
   background: #cf5022;
 }
 
-/* line 152, /var/www/worldpz/app/assets/stylesheets/style.scss */
 ol.type li a:hover {
   color: #f6f6f6;
   border: 1px solid #cf5022;
   background: #cf5022;
 }
 
-/* line 160, /var/www/worldpz/app/assets/stylesheets/style.scss */
 label {
   font-size: 12px;
   font-weight: 400;
@@ -221,7 +197,6 @@ label {
   float: left;
 }
 
-/* line 167, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .btn:active, .btn.active {
   background-image: none;
   outline: 0;
@@ -229,7 +204,6 @@ label {
   box-shadow: none;
 }
 
-/* line 173, /var/www/worldpz/app/assets/stylesheets/style.scss */
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
   outline: none;
   outline-offset: none;
@@ -237,62 +211,52 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* ------------------------------------------------------ */
 @media (max-width: 768px) {
-  /* line 179, /var/www/worldpz/app/assets/stylesheets/style.scss */
-  .hover-bg .hover-text {
+    .hover-bg .hover-text {
     padding: 20%;
   }
 }
 /* ------------------------------------------------------ */
 @media (max-width: 640px) {
-  /* line 185, /var/www/worldpz/app/assets/stylesheets/style.scss */
-  #intro .intro-body H1 {
+    #intro .intro-body H1 {
     font-size: 36px;
   }
 
-  /* line 188, /var/www/worldpz/app/assets/stylesheets/style.scss */
-  ol.type li {
+    ol.type li {
     margin-top: 30px;
   }
 }
 /* ------------------------------------------------------ */
-/* line 194, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .recipe-desc {
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 24px;
 }
 
-/* line 199, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .recipe-image {
   max-width: 100%;
   height: auto;
 }
 
-/* line 204, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .recipe-description {
   width: 100%;
   height: 200px;
 }
 
-/* line 209, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .space {
   margin-top: 40px;
 }
 
 /* cmn toggles - fancy boolean checkboxes */
-/* line 214, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .cmn-toggle {
   position: absolute;
   margin-left: -9999px;
   visibility: hidden;
 }
 
-/* line 219, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .cmn-toggle + label {
   display: block;
   position: relative;
 }
 
-/* line 225, /var/www/worldpz/app/assets/stylesheets/style.scss */
 input.cmn-toggle-round + label {
   padding: 2px;
   width: 40px;
@@ -301,7 +265,6 @@ input.cmn-toggle-round + label {
   border-radius: 20px;
 }
 
-/* line 232, /var/www/worldpz/app/assets/stylesheets/style.scss */
 input.cmn-toggle-round + label:before,
 input.cmn-toggle-round + label:after {
   display: block;
@@ -312,7 +275,6 @@ input.cmn-toggle-round + label:after {
   content: "";
 }
 
-/* line 241, /var/www/worldpz/app/assets/stylesheets/style.scss */
 input.cmn-toggle-round + label:before {
   right: 1px;
   background-color: #f1f1f1;
@@ -320,7 +282,6 @@ input.cmn-toggle-round + label:before {
   transition: background 0.4s;
 }
 
-/* line 247, /var/www/worldpz/app/assets/stylesheets/style.scss */
 input.cmn-toggle-round + label:after {
   width: 18px;
   background-color: #fff;
@@ -329,22 +290,18 @@ input.cmn-toggle-round + label:after {
   transition: margin 0.4s;
 }
 
-/* line 254, /var/www/worldpz/app/assets/stylesheets/style.scss */
 input.cmn-toggle-round:checked + label:before {
   background-color: #8ce196;
 }
 
-/* line 257, /var/www/worldpz/app/assets/stylesheets/style.scss */
 input.cmn-toggle-round:checked + label:after {
   margin-left: 20px;
 }
 
-/* line 261, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .red {
   color: #f00;
 }
 
-/* line 265, /var/www/worldpz/app/assets/stylesheets/style.scss */
 .green {
   color: #0f0;
 }

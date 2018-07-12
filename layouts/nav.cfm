@@ -26,6 +26,3 @@
   </div>
   <!-- /.container --> 
 </nav>
-
-
-  

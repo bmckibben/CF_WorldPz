@@ -45,6 +45,10 @@
 			viewCaching				= false
 		};
 
+		datasources = {
+		    worldpz = {name="worldpz", dbtype="PostgreSQL"}
+		};
+
 		// custom settings
 		settings = {
 

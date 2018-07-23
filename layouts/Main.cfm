@@ -27,12 +27,12 @@
   <div id="status"> <img src="includes/images/preloader.gif" height="64" width="64" alt=""> </div>
 </div>
 
-	<cfinclude template="nav.cfm"/>
+	#renderView("/common/nav")#
 
 	<!---Container And Views --->
 	#renderView()#
 
-	<cfinclude template="footer.cfm"/>
+	#renderView("/common/footer")#
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script type="text/javascript" src="includes/js/jquery.1.11.1.js"></script> 
